@@ -71,7 +71,7 @@ router.post("/", async function (req, res, next) {
     const response =
       type === "cv"
         ? await chatCompletion(prompt)
-        : await chatCompletion(prompt, true);
+        : await chatCompletion(prompt, false);
     res.status(200).json(response);
   } catch (error) {
     res.status(500).json({ error: error.message });
