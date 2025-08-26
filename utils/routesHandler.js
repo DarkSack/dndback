@@ -1,4 +1,4 @@
-// import indexRouter from "../routes/index.js";
+import indexRouter from "../routes/index.js";
 // import usersRouter from "../routes/users.js";
 // import loginRouter from "../routes/auth/login.js";
 // import registerRouter from "../routes/auth/register.js";
@@ -9,7 +9,7 @@
 // import createRoomRouter from "../routes/room/createRoom.js";
 import improveFieldRouter from "../routes/extras/inproveField.js";
 const routes = [
-  // { path: "/", handler: indexRouter },
+  { path: "/", handler: indexRouter },
   // { path: "/users", handler: usersRouter },
   // { path: "/auth/login", handler: loginRouter },
   // { path: "/auth/register", handler: registerRouter },
