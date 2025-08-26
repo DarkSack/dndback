@@ -18,7 +18,7 @@ const routes = [
   { path: "/histories/create", handler: createHistoryRouter },
   { path: "/histories/continue", handler: continueHistoryRouter },
   { path: "/room/create", handler: createRoomRouter },
-  { path: "/extras/inproveField", handler: improveFieldRouter },
+  { path: "/extras/improveField", handler: improveFieldRouter },
 ];
 
 export default routes;
